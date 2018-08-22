@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for text using TextAppearance medium as a parent -->
+    <style name="text" parent="TextAppearance.AppCompat">
+        <!-- Set the text to be italic -->
+        <item name="android:textStyle">italic</item>
+        <!-- Set the font of the text to sans-serif-light -->
+        <item name="android:fontFamily">sans-serif-light</item>
+        <!-- Set text color to white -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Style for playlist names using text as a parent -->
+    <style name="my_music" parent="text">
+        <!-- Set the size of the text to 16sp-->
+        <item name="android:textSize">16sp</item>
+        <!-- Set the text to be italic and bold -->
+        <item name="android:textStyle">italic|bold</item>
+        <!-- Set text color to white -->
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Style for playlist names in landscape mode using my_music as a parent -->
+    <style name="land_text" parent="my_music">
+        <!-- Set the size of the text to 12sp-->
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

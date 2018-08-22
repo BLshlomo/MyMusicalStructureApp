@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Application name -->
+    <string name="app_name">My Musical Structure app</string>
+
+    <!-- Description of the thumbnail of the current song located to the left of the song details -->
+    <string name="main_thumbnail_description">Selected song thumbnail</string>
+
+    <!-- Description of the main photo of the current song thumbnail which serve as
+    background image of the player -->
+    <string name="main_song_photo_description">Selected song photo</string>
+
+    <!-- Description of the button to add a song to the favorite songs list located on an list item -->
+    <string name="add_fav_btn_description">Add song to favourites list</string>
+
+    <!-- Description of the button for rewind of the current song
+    located to the left of the play song button -->
+    <string name="rewind_btn_description">Rewind</string>
+
+    <!-- Description of the button to play the current song located in the center of the screen -->
+    <string name="play_btn_description">Play song</string>
+
+    <!-- Description of the button for going forward in the song timing
+    located to the right of the play song button -->
+    <string name="forward_btn_description">Forward</string>
+
+    <!-- Description of the button to go back to the previous song on the list
+    located on the bottom left side of the screen -->
+    <string name="previous_btn_description">Previous song</string>
+
+    <!-- Description of the button to go to the choose playlist screen
+    located on the bottom center of the screen -->
+    <string name="finder_btn_description">Music files finder</string>
+
+    <!-- Description of the button to go to the next song on the list
+    located on the bottom right side of the screen -->
+    <string name="next_btn_description">Next song</string>
+
+    <!-- Description of the button to go to the first playlist -->
+    <string name="playlist_1">Avicii Songs</string>
+
+    <!-- Description of the button to go to the second playlist -->
+    <string name="playlist_2">House Music </string>
+
+    <!-- Description of the button to go to the favorite songs playlist -->
+    <string name="favorite">Favorite \nSongs</string>
+
+    <!-- Description of a thumbnail of the playlist -->
+    <string name="playlist_img_description">Photo preview of first song</string>
+
+    <!-- A toast message explaining that the favorite songs list is empty -->
+    <string name="fav_list_empty">The favorite songs list is empty</string>
+
+    <!-- A toast message explaining that the current song is added to the favorite songs list -->
+    <string name="add_fav_list">is added to the favourite songs list</string>
+
+    <!-- A toast message explaining that the current song is removed from the favorite songs list -->
+    <string name="del_fav_list">is removed from the favourite songs list</string>
+
+</resources>

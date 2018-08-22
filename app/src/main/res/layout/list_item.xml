@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="@dimen/list_thumbnail_width"
+        android:layout_height="@dimen/list_thumbnail_height"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/music" />
+
+    <LinearLayout
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/thumbnail"
+        android:layout_toLeftOf="@+id/list_button_play"
+        android:layout_toRightOf="@id/thumbnail"
+        android:layout_toStartOf="@id/list_button_play"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:maxLines="1"
+            tools:text="song name" />
+
+        <TextView
+            android:id="@+id/artist"
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:maxLines="1"
+            tools:text="song artist" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/list_button_play"
+        android:layout_width="@dimen/player_btn_width"
+        android:layout_height="@dimen/player_btn_height"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@+id/list_button_fav"
+        android:layout_toStartOf="@id/list_button_fav"
+        android:contentDescription="@string/play_btn_description"
+        android:src="@drawable/button_green_play" />
+
+    <ImageView
+        android:id="@+id/list_button_fav"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/add_fav_btn_description"
+        android:src="@drawable/button_favorite" />
+
+</RelativeLayout>
