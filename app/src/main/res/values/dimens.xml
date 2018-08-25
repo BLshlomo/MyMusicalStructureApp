@@ -9,6 +9,9 @@
     <dimen name="list_thumbnail_width">60dp</dimen>
     <dimen name="list_thumbnail_height">60dp</dimen>
 
+    <!-- Main Play button size -->
+    <dimen name="main_play_btn">100dp</dimen>
+
     <!-- List item favourite icon button size -->
     <dimen name="list_fav_btn_width">40dp</dimen>
     <dimen name="list_fav_btn_height">40dp</dimen>
@@ -17,12 +20,31 @@
     <dimen name="list_play_btn_width">50dp</dimen>
     <dimen name="list_play_btn_height">50dp</dimen>
 
-    <!-- playlist linear layout buttons size -->
+    <!-- Playlist linear layout buttons size -->
     <dimen name="pl_ll_width">100dp</dimen>
     <dimen name="pl_ll_height">150dp</dimen>
 
     <!-- Landscape mode playlist linear layout button size-->
     <dimen name="pl_width_land">80dp</dimen>
     <dimen name="pl_height_land">120dp</dimen>
+
+    <!-- Dimens for small favorite button -->
+    <dimen name="small_fav_width">30dp</dimen>
+    <dimen name="small_fav_height">30dp</dimen>
+
+    <!-- Margin size for playlist buttons in the my music landscape activity -->
+    <dimen name="pl_mar_land">80dp</dimen>
+
+    <!-- size 30dp as margin for the main player buttons -->
+    <dimen name="size_30">30dp</dimen>
+
+    <!-- size 10dp -->
+    <dimen name="size_10">10dp</dimen>
+
+    <!-- Size 5dp -->
+    <dimen name="size_5">5dp</dimen>
+
+    <!-- size 3dp -->
+    <dimen name="size_3">3dp</dimen>
 
 </resources>

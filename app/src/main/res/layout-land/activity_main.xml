@@ -10,10 +10,10 @@
         android:id="@+id/song_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginBottom="@dimen/size_5"
+        android:layout_marginLeft="@dimen/size_10"
+        android:layout_marginRight="@dimen/size_10"
+        android:layout_marginTop="@dimen/size_5"
         android:visibility="gone">
 
         <ImageView
@@ -28,8 +28,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginStart="10dp"
+            android:layout_marginLeft="@dimen/size_10"
+            android:layout_marginStart="@dimen/size_10"
             android:layout_toEndOf="@id/main_song_thumbnail"
             android:layout_toLeftOf="@+id/main_btn_fav"
             android:layout_toRightOf="@id/main_song_thumbnail"
@@ -56,8 +56,8 @@
 
         <ImageView
             android:id="@+id/main_btn_fav"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/small_fav_width"
+            android:layout_height="@dimen/small_fav_height"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
@@ -86,8 +86,8 @@
             android:layout_width="@dimen/player_btn_width"
             android:layout_height="@dimen/player_btn_height"
             android:layout_centerInParent="true"
-            android:layout_marginEnd="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginEnd="@dimen/size_30"
+            android:layout_marginRight="@dimen/size_30"
             android:layout_toLeftOf="@+id/main_play"
             android:layout_toStartOf="@id/main_play"
             android:background="@android:color/transparent"
@@ -97,8 +97,8 @@
 
         <ImageView
             android:id="@+id/main_play"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/main_play_btn"
+            android:layout_height="@dimen/main_play_btn"
             android:layout_centerInParent="true"
             android:background="@android:color/transparent"
             android:contentDescription="@string/play_btn_description"
@@ -109,8 +109,8 @@
             android:layout_width="@dimen/player_btn_width"
             android:layout_height="@dimen/player_btn_height"
             android:layout_centerInParent="true"
-            android:layout_marginLeft="30dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginLeft="@dimen/size_30"
+            android:layout_marginStart="@dimen/size_30"
             android:layout_toEndOf="@id/main_play"
             android:layout_toRightOf="@id/main_play"
             android:background="@android:color/transparent"
@@ -125,7 +125,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:padding="5dp"
+        android:padding="@dimen/size_5"
         android:visibility="gone">
 
         <ImageView

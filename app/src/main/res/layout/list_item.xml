@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingBottom="5dp"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
-    android:paddingTop="5dp">
+    android:paddingBottom="@dimen/size_5"
+    android:paddingLeft="@dimen/size_10"
+    android:paddingRight="@dimen/size_10"
+    android:paddingTop="@dimen/size_5">
 
     <ImageView
         android:id="@+id/thumbnail"
@@ -20,8 +20,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp"
+        android:layout_marginLeft="@dimen/size_10"
+        android:layout_marginStart="@dimen/size_10"
         android:layout_toEndOf="@id/thumbnail"
         android:layout_toLeftOf="@+id/list_button_play"
         android:layout_toRightOf="@id/thumbnail"
@@ -33,7 +33,7 @@
             style="@style/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="3dp"
+            android:layout_marginBottom="@dimen/size_3"
             android:maxLines="1"
             tools:text="song name" />
 
@@ -42,7 +42,7 @@
             style="@style/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/size_3"
             android:maxLines="1"
             tools:text="song artist" />
 
@@ -53,7 +53,7 @@
         android:layout_width="@dimen/player_btn_width"
         android:layout_height="@dimen/player_btn_height"
         android:layout_centerVertical="true"
-        android:layout_margin="5dp"
+        android:layout_margin="@dimen/size_5"
         android:layout_toLeftOf="@+id/list_button_fav"
         android:layout_toStartOf="@id/list_button_fav"
         android:contentDescription="@string/play_btn_description"
@@ -61,12 +61,12 @@
 
     <ImageView
         android:id="@+id/list_button_fav"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="@dimen/small_fav_width"
+        android:layout_height="@dimen/small_fav_height"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:layout_margin="5dp"
+        android:layout_margin="@dimen/size_5"
         android:contentDescription="@string/add_fav_btn_description"
         android:src="@drawable/button_favorite" />
 

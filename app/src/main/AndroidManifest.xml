@@ -19,13 +19,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".MyMusic"
-            android:label="Library"/>
+            android:label="Library"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".FavouriteSongs"
-            android:label="My Favourite Songs"/>
+            android:label="@string/favorite"
+            android:parentActivityName=".MyMusic"/>
         <activity android:name=".Playlist1"
-            android:label="Avicii"/>
+            android:label="@string/playlist_1"
+            android:parentActivityName=".MyMusic"/>
         <activity android:name=".Playlist2"
-            android:label="House music"/>
+            android:label="@string/playlist_2"
+            android:parentActivityName=".MyMusic"/>
     </application>
 
 </manifest>

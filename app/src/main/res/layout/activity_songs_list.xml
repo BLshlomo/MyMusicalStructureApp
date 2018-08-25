@@ -5,10 +5,10 @@
     android:id="@+id/list"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="5dp"
-    android:paddingStart="5dp"
-    android:paddingRight="5dp"
-    android:paddingEnd="5dp"
+    android:paddingLeft="@dimen/size_5"
+    android:paddingStart="@dimen/size_5"
+    android:paddingRight="@dimen/size_5"
+    android:paddingEnd="@dimen/size_5"
     tools:context=".Song">
 
 </ListView>
